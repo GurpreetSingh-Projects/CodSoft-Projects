@@ -1,0 +1,104 @@
+div,
+body {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+.ip-lookup {
+  display: flex;
+  border: 0;
+  background-color: black;
+  color: white;
+  height: 20px;
+  right: 0;
+  left: 0;
+  margin: 0px;
+  padding-top: 5px;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.ip-lookup span {
+  color: red;
+}
+.header {
+  position: relative;
+  height: 45px;
+  left: 0;
+  right: 0;
+  font-size: 16px;
+  display: flex;
+  flex: 1;
+  z-index: 100;
+}
+.logo {
+  height: 25px;
+  margin-left: 10px;
+  margin-top: 10px;
+  display: flex;
+}
+.middle {
+  display: flex;
+  flex: 1;
+}
+.element {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  font-size: 10px;
+}
+.right {
+  display: flex;
+  right: 0;
+  margin-left: 150px;
+  padding: auto;
+}
+.right button {
+  color: white;
+  background-color: rgb(224, 47, 31);
+  border-radius: 100px;
+  padding: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: auto;
+  height: 27px;
+  border: 0;
+  font-size: 10px;
+  border: 0;
+}
+.right .element {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  font-size: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.right img {
+  height: 20px;
+  margin: auto;
+  padding-right: 20px;
+}
+.textbox {
+  height: 90vh;
+  background-color: rgba(176, 216, 219, 0.226);
+padding: 40vh;
+padding-left: 100px;
+  
+}
+.meetnordcontainer {
+    left: 10px;
+}
+.headingmeetnord {
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 600;
+}
+.meetnordpara {
+    padding-top: 10px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+}
