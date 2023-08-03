@@ -3,7 +3,7 @@ body {
   border: 0;
   padding: 0;
   margin: 0;
-  font-family: sans-serif;
+  font-family: Inter;
 }
 .ip-lookup {
   display: flex;
@@ -47,7 +47,8 @@ body {
   display: flex;
   margin: auto;
   justify-content: center;
-  font-size: 10px;
+  font-size: 14px;
+  font-weight: 500;
 }
 .right {
   display: flex;
@@ -72,7 +73,7 @@ body {
   display: flex;
   margin: auto;
   justify-content: center;
-  font-size: 10px;
+  font-size: 16px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -82,23 +83,35 @@ body {
   padding-right: 20px;
 }
 .textbox {
-  height: 90vh;
-  background-color: rgba(176, 216, 219, 0.226);
+  height: 15vh;
+  background-color: rgba(124, 215, 221, 0.226);
 padding: 40vh;
 padding-left: 100px;
   
 }
 .meetnordcontainer {
-    left: 10px;
+  position: relative;
 }
 .headingmeetnord {
+   display: inline-flex;
+  flex: 1;
   font-family: Inter;
-  font-size: 36px;
+  font-size: 38px;
   font-weight: 600;
+  
 }
 .meetnordpara {
-    padding-top: 10px;
+  display: flex;
+  flex: 1;
+  padding-top: 14px;
   font-family: Inter;
   font-size: 16px;
   font-weight: 500;
+  padding-top: 20px;
+
+}
+.image1 {
+  right: 10vw;
+  position: absolute;
+  top: 20vh;
 }
