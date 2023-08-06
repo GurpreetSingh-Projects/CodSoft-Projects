@@ -46,7 +46,7 @@ body {
 .logo {
   height: 25px;
   margin-left: 10px;
-  margin-top: 20px;
+  margin-top: 16px;
   display: flex;
 }
 .middle {
@@ -66,18 +66,24 @@ body {
   margin-left: 150px;
   padding: auto;
 }
-.right button {
+.right button, .bluebutton{
   color: white;
   background-color: rgb(224, 47, 31);
   border-radius: 100px;
-  padding: 5px;
+  padding: 10px;
   padding-left: 25px;
   padding-right: 25px;
   margin: auto;
-  height: 27px;
   border: 0;
-  font-size: 10px;
-  border: 0;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+.right button:hover,.bluebutton:hover {
+  opacity: 50%;
+}
+.right .button1,.bluebutton {
+  font-size: 14px;
+  font-family: inter;
 }
 .right .element {
   display: flex;
@@ -103,12 +109,15 @@ body {
 }
 .headingmeetnord,
 .text1,
-.howitallstarted {
-  display: inline-flex;
+.howitallstarted,
+.section_4 .text-1 {
   flex: 1;
   font-family: Inter;
   font-size: 38px;
   font-weight: 600;
+}
+.howitall {
+  display: block;
 }
 .meetnordpara,
 .ourmission .text2 {
@@ -142,14 +151,16 @@ body {
   padding-top: 5%;
 }
 .ourmission .text2,
-.thesparkpara {
+.thesparkpara,
+.section_4 .text-2 {
   color: rgb(77, 78, 86);
   padding-left: 45%;
   font-weight: 400;
   padding-bottom: 5%;
   padding-top: 5%;
 }
-.howitallstarted {
+.howitallstarted,
+.section_4 .text-1 {
   padding-top: 50px;
   padding-bottom: 50px;
   align-items: center;
@@ -160,6 +171,7 @@ body {
   display: inline-flex;
   padding: 0px;
   position: absolute;
+  padding-bottom: 13vh;
 }
 .thespark,
 .thesparkpara {
@@ -173,7 +185,40 @@ body {
   padding-left: 55%;
   font-weight: 500;
   font-size: 18px;
-  border: 1;
-  border-color: rgb(62, 95, 255);
-  border-style: solid;
+}
+.section_4 {
+  display: absolute;
+  margin-left: 120px;
+  margin-right: 120px;
+  height: 290px;
+  background-color: #dae2f086;
+  margin-top: 100vh;
+  border-radius: 25px;
+  border: 0;
+}
+.section_4 .text-1 {
+  display: flex;
+  flex: 1;
+  padding-left: 0;
+  position: relative;
+  color: rgb(56, 56, 56);
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.section_4 .text-2 {
+  display: flex;
+  flex: 1;
+  position: relative;
+  justify-content: center;
+  padding-left: 0;
+  padding-top: 0%;
+}
+.bluebutton {
+  background: rgb(62, 95, 255);
+  margin-left: 41%;
+margin-right: 40%;
+font-size: 17px;
+font-weight: bold;
+margin-top: -30px;
 }
