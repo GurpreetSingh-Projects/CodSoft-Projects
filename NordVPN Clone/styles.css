@@ -1,5 +1,6 @@
 div,
-body {
+body,
+section {
   border: 0;
   padding: 0;
   margin: 0;
@@ -57,7 +58,7 @@ body {
   display: flex;
   margin: auto;
   justify-content: center;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 500;
 }
 .right {
@@ -66,7 +67,8 @@ body {
   margin-left: 150px;
   padding: auto;
 }
-.right button, .bluebutton{
+.right button,
+.bluebutton {
   color: white;
   background-color: rgb(224, 47, 31);
   border-radius: 100px;
@@ -78,10 +80,12 @@ body {
   cursor: pointer;
   transition: opacity 0.3s;
 }
-.right button:hover,.bluebutton:hover {
+.right button:hover,
+.bluebutton:hover {
   opacity: 50%;
 }
-.right .button1,.bluebutton {
+.right .button1,
+.bluebutton {
   font-size: 14px;
   font-family: inter;
 }
@@ -110,7 +114,8 @@ body {
 .headingmeetnord,
 .text1,
 .howitallstarted,
-.section_4 .text-1 {
+.section_4 .text-1,
+.section_5 {
   flex: 1;
   font-family: Inter;
   font-size: 38px;
@@ -160,7 +165,8 @@ body {
   padding-top: 5%;
 }
 .howitallstarted,
-.section_4 .text-1 {
+.section_4 .text-1,
+.section_5 {
   padding-top: 50px;
   padding-bottom: 50px;
   align-items: center;
@@ -217,8 +223,12 @@ body {
 .bluebutton {
   background: rgb(62, 95, 255);
   margin-left: 41%;
-margin-right: 40%;
-font-size: 17px;
-font-weight: bold;
-margin-top: -30px;
+  margin-right: 40%;
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: -30px;
+}
+.section_5 {
+  padding-top: 130px;
+  padding-bottom: 110px;
 }
