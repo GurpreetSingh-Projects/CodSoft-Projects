@@ -231,8 +231,8 @@ section {
   margin-top: -30px;
 }
 .section_5 {
-  padding-top: 110px;
-  padding-bottom: 90px;
+  padding-top: 80px;
+  padding-bottom: 70px;
 }
 .section_6 {
   display: grid;
@@ -255,4 +255,43 @@ section {
   padding-right: 130px;
   margin: 0;
   text-align: center;
+}
+.last_section {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  color: white;
+  background-color: rgb(14, 13, 13);
+  height: 80vh;
+  font-family: Inter;
+}
+.nordvpn,.vpn_apps,.engage,.help, .follow_us,.discover {
+  color: rgb(177, 177, 180);
+  line-height: 18px;
+  line-height: 18px;
+  font-weight: 600;
+  font-size: 12px;
+  text-align: left;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 50px;
+  
+}
+.nordvpn div ,.vpn_apps div,.engage div,.help div, .follow_us div,.discover div{
+  margin-bottom: 20px;
+  color: white;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: left;
+  cursor: pointer;
+  font-weight: 500;
+  transform: color 0.15s;
+}
+.nordvpn .a,.vpn_apps .a,.engage .a,.help .a, .follow_us .a,.discover .a
+ {
+  margin-top: 30px;
+}
+
+.nordvpn div:hover,.vpn_apps div:hover,.engage div:hover,.help div:hover, .follow_us div:hover,.discover div:hover{
+  color: rgb(106, 106, 107);
 }
