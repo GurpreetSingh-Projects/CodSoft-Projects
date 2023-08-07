@@ -23,22 +23,20 @@ section {
   font-size: 12px;
   font-weight: bold;
   z-index: 201;
-  position: fixed;
 }
 
 .ip-lookup span {
   color: red;
 }
 .header {
-  position: fixed;
+  position: sticky;
+  top: 0;
   height: 60px;
   left: 0;
   right: 0;
-  top: 0;
-  padding-top: 25px;
+  padding-top: 0px;
   font-size: 16px;
   display: flex;
-  flex: 1;
   z-index: 100;
   background-color: white;
   border-bottom: 1px;
@@ -49,6 +47,7 @@ section {
   margin-left: 10px;
   margin-top: 16px;
   display: flex;
+  margin-right: 40px;
 }
 .middle {
   display: flex;
@@ -115,7 +114,8 @@ section {
 .text1,
 .howitallstarted,
 .section_4 .text-1,
-.section_5, .section_7 .heading {
+.section_5,
+.section_7 .heading {
   flex: 1;
   font-family: Inter;
   font-size: 38px;
@@ -167,7 +167,8 @@ section {
 }
 .howitallstarted,
 .section_4 .text-1,
-.section_5, .section_7 .heading {
+.section_5,
+.section_7 .heading {
   padding-top: 50px;
   padding-bottom: 50px;
   align-items: center;
@@ -265,7 +266,12 @@ section {
   height: 80vh;
   font-family: Inter;
 }
-.nordvpn,.vpn_apps,.engage,.help, .follow_us,.discover {
+.nordvpn,
+.vpn_apps,
+.engage,
+.help,
+.follow_us,
+.discover {
   color: rgb(177, 177, 180);
   line-height: 18px;
   line-height: 18px;
@@ -275,9 +281,13 @@ section {
   margin-left: 25px;
   margin-right: 25px;
   margin-top: 50px;
-  
 }
-.nordvpn div ,.vpn_apps div,.engage div,.help div, .follow_us div,.discover div{
+.nordvpn div,
+.vpn_apps div,
+.engage div,
+.help div,
+.follow_us div,
+.discover div {
   margin-bottom: 20px;
   color: white;
   font-size: 14px;
@@ -287,11 +297,29 @@ section {
   font-weight: 500;
   transform: color 0.15s;
 }
-.nordvpn .a,.vpn_apps .a,.engage .a,.help .a, .follow_us .a,.discover .a
- {
+.nordvpn .a,
+.vpn_apps .a,
+.engage .a,
+.help .a,
+.follow_us .a,
+.discover .a {
   margin-top: 30px;
 }
 
-.nordvpn div:hover,.vpn_apps div:hover,.engage div:hover,.help div:hover, .follow_us div:hover,.discover div:hover{
+.nordvpn div:hover,
+.vpn_apps div:hover,
+.engage div:hover,
+.help div:hover,
+.follow_us div:hover,
+.discover div:hover {
   color: rgb(106, 106, 107);
+}
+.creditsandpaymodes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.credits {
+}
+.cc {
+  align-items: end;
 }
