@@ -317,9 +317,14 @@ section {
 .creditsandpaymodes {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  background-color: rgb(14, 13, 13);
+  padding-bottom: 100px;
 }
 .credits {
+  text-align: left;
+  color: rgb(138, 138, 138);
 }
 .cc {
-  align-items: end;
+  display: flex;
+  justify-content: end;
 }
