@@ -59,7 +59,14 @@ section {
   justify-content: center;
   font-size: 15px;
   font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.5s, font-size 0.15s;
 }
+.element:hover {
+  opacity: 50%;
+  font-size: 20px;
+}
+
 .right {
   display: flex;
   right: 0;
@@ -68,6 +75,7 @@ section {
 }
 .right button,
 .bluebutton {
+  position: relative;
   color: white;
   background-color: rgb(224, 47, 31);
   border-radius: 100px;
@@ -77,6 +85,8 @@ section {
   margin: auto;
   border: 0;
   cursor: pointer;
+  box-shadow: 0px 0px 5px grey;
+  border: 0;
   transition: opacity 0.3s;
 }
 .right button:hover,
@@ -88,6 +98,13 @@ section {
   font-size: 14px;
   font-family: inter;
 }
+.right .button1:active {
+  background: rgb(189, 39, 25);
+}
+.bluebutton:active {
+  background-color: rgb(0, 42, 255);
+}
+
 .right .element {
   display: flex;
   margin: auto;
@@ -116,7 +133,8 @@ section {
 .section_4 .text-1,
 .section_5,
 .section_7 .heading,
-.section_8 .heading{
+.section_8 .heading,
+.section_10 .text-1 {
   flex: 1;
   font-family: Inter;
   font-size: 38px;
@@ -126,7 +144,8 @@ section {
   display: block;
 }
 .meetnordpara,
-.ourmission .text2, .section_8 .para {
+.ourmission .text2,
+.section_8 .para {
   display: flex;
   flex: 1;
   padding-top: 14px;
@@ -160,7 +179,9 @@ section {
 .thesparkpara,
 .section_4 .text-2,
 .section_6 .text2,
-.section_8 .para, .section_8 .para {
+.section_8 .para,
+.section_8 .para,
+.section_10 .text-2 {
   color: rgb(77, 78, 86);
   padding-left: 45%;
   font-weight: 400;
@@ -171,11 +192,12 @@ section {
 .section_4 .text-1,
 .section_5,
 .section_7 .heading,
-.section_8 .heading {
+.section_8 .heading,
+.section_10 .text-1 {
   padding-top: 50px;
   padding-bottom: 50px;
   align-items: center;
-  padding-left: 38%;
+  text-align: center;
 }
 .image-2,
 .image-4 {
@@ -204,7 +226,8 @@ section {
   font-weight: 500;
   font-size: 20px;
 }
-.section_4 {
+.section_4,
+.section_10 {
   display: absolute;
   margin-left: 120px;
   margin-right: 120px;
@@ -214,7 +237,8 @@ section {
   border-radius: 25px;
   border: 0;
 }
-.section_4 .text-1 {
+.section_4 .text-1,
+.section_10 .text-1 {
   display: flex;
   flex: 1;
   padding-left: 0;
@@ -224,7 +248,8 @@ section {
   padding-top: 80px;
 }
 
-.section_4 .text-2 {
+.section_4 .text-2,
+.section_10 .text-2 {
   display: flex;
   flex: 1;
   position: relative;
@@ -240,7 +265,8 @@ section {
   font-weight: bold;
   margin-top: -30px;
 }
-.section_5, .section_9 {
+.section_5,
+.section_9 {
   padding-top: 80px;
   padding-bottom: 70px;
 }
@@ -303,7 +329,8 @@ section {
   font-size: 16px;
 }
 
-.section_8,.section_9 {
+.section_8,
+.section_9 {
   display: block;
   padding-bottom: 120px;
 }
@@ -318,30 +345,28 @@ section {
   grid-template-columns: 1fr 1fr;
 }
 .section_9 .para {
-  
   display: inline;
-  
+
   margin-top: 100px;
   text-align: left;
   max-width: 550px;
-  padding: 15px 0px 27px 100px
+  padding: 15px 0px 27px 100px;
 }
-.image-5 {
-  padding
+.section_10 {
+  margin-top: 0;
+  background-color: rgb(0, 0, 0);
+  margin-bottom: 100px;
+  padding-bottom: 20px;
 }
 
+.section_10 .bluebutton {
+  width: 165px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.section_10 .text-1,
+.section_10 .text-2 {
+  color: white;
+}
 .last_section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
