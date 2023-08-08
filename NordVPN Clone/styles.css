@@ -265,23 +265,23 @@ section {
 }
 
 .section_7 .grid2x2 {
-  display: inline-grid;
+  display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 100px;
+  
   row-gap: 100px;
   background-color: white;
-  align-items: center;
-  left: 0;
+  
+  margin-left: 300px;
 }
 .section_7 .grid_element {
-  display: flex;
-  flex: 1;
+  
 }
 .section_7 .grid_heading {
-  position: relative;
+  padding: 0;
+  text-align: left;
 }
 .section_7 .grid_para {
-  position: relative;
+  
   padding-top: 10px;
   color: rgb(77, 78, 86);
   font-weight: 400;
