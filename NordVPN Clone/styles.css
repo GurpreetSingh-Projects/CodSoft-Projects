@@ -189,7 +189,8 @@ section {
   border-left-color: rgb(62, 95, 255);
 }
 .thespark,
-.section_6 .text1 {
+.section_6 .text1,
+.section_7 .grid_heading {
   padding-top: 12%;
   padding-left: 55%;
   font-weight: 500;
@@ -251,12 +252,41 @@ section {
 .section_6 .text2 {
   padding-left: 100px;
 }
+.section_7 {
+  background-color: rgba(226, 217, 217, 0.486);
+  position: relative;
+  height: 100vh;
+}
 .section_7 .heading {
   padding-left: 130px;
   padding-right: 130px;
   margin: 0;
   text-align: center;
 }
+
+.section_7 .grid2x2 {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 100px;
+  row-gap: 100px;
+  background-color: white;
+  align-items: center;
+  left: 0;
+}
+.section_7 .grid_element {
+  display: flex;
+  flex: 1;
+}
+.section_7 .grid_heading {
+  position: relative;
+}
+.section_7 .grid_para {
+  position: relative;
+  padding-top: 10px;
+  color: rgb(77, 78, 86);
+  font-weight: 400;
+}
+
 .last_section {
   position: relative;
   display: grid;
