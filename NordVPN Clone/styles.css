@@ -119,7 +119,7 @@ section {
   padding-right: 20px;
 }
 .textbox {
-  height: 15vh;
+  height: 8vh;
   background-color: #e5e9f0bb;
   padding: 48vh;
   padding-left: 100px;
@@ -194,7 +194,7 @@ section {
 .section_7 .heading,
 .section_8 .heading,
 .section_10 .text-1 {
-  padding-top: 50px;
+  padding-top: 90px;
   padding-bottom: 50px;
   align-items: center;
   text-align: center;
