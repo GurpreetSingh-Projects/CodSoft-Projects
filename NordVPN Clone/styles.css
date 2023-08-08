@@ -267,24 +267,24 @@ section {
 .section_7 .grid2x2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  
-  row-gap: 100px;
-  background-color: white;
-  
+  gap: 100px;
+
   margin-left: 300px;
 }
 .section_7 .grid_element {
-  
+  background-color: white;
 }
 .section_7 .grid_heading {
   padding: 0;
   text-align: left;
+  font-size: 20px;
+  font-weight: 600;
 }
 .section_7 .grid_para {
-  
   padding-top: 10px;
   color: rgb(77, 78, 86);
   font-weight: 400;
+  font-size: 16px;
 }
 
 .last_section {
