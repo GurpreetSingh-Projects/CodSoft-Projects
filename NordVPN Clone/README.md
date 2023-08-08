@@ -15,7 +15,7 @@ This repository contains the NordVPN Clone project, which was developed as Task 
 
 ## Demo
 
-Check out the live demo of the NordVPN Clone [here]([https://your-demo-link.com](https://gurpreetsingh-projects.github.io/CodSoft-Projects/NordVPN%20Clone/index.html)).
+Check out the live demo of the NordVPN Clone [here](https://gurpreetsingh-projects.github.io/CodSoft-Projects/NordVPN%20Clone/index.html).
 
 ## Installation
 
