@@ -1,27 +1,42 @@
 .container {
-  height: 90vh;
-  width: 40vw;
+  position: relative;
+  height: 80vh;
+  width: 30%;
   border: solid black;
   margin: auto;
   border-radius: 10px;
+  padding: 20px;
 }
 .input {
+  
   border: solid black;
-  margin: auto;
-  border-radius: 10px;
-  margin-left: 50%;
+  width: 97%;
+  border: 1;
   text-align: right;
 }
 .section_2 {
-  margin: auto;
-  display: flex;
+  display: grid;
   position: absolute;
-  flex-direction: column;
-  justify-items: center;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  
 }
 .section_2 button {
-  position: relative;
-  padding: 20px;
-  max-width: 20px;
+  background-color: rgb(172, 172, 172);
+  margin: 10%;
+  padding: 15%;
+  padding: auto;
+  color: black;
+  
+  
+  border-style: solid;
+  border: 0;
   text-align: center;
+  font-size: 40px;
+}
+.section_2 text{
+  
 }
