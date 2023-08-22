@@ -16,20 +16,22 @@ button {
   border-radius: 10px;
   padding: 0;
   border: 0;
+  box-shadow: 0px 0px 15px rgba(175, 175, 175, 0.692);
 }
 .input {
-  margin-top: 20%;
-  border: solid black;
+  margin-top: 50%;
+  border: 0;
   width: 90%;
   border: 1;
   text-align: right;
+  font-size: 50px;
+
 }
 .section_2 {
   display: grid;
   position: absolute;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   height: 60%;
-
   left: 0;
   right: 0;
   bottom: 0;
@@ -38,9 +40,11 @@ button {
   padding-bottom: 2%;
   font-family: Arial;
   gap: 3%;
+  padding-top: 15px;
 }
 .section_2 button {
   background-color: rgb(233, 233, 233);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.692);
   border: 0;
   border-radius: 9999px;
   color: black;
@@ -48,4 +52,12 @@ button {
   font-size: 30px;
   font-family: Arial;
   padding: 0px;
+  transition: opacity 0.2s background-color 0.2s;
+}
+.section_2 button:hover {
+    opacity: 70%;
+}
+.section_2 button:active {
+    background-color: rgba(141, 141, 141, 0.637);
+    
 }
