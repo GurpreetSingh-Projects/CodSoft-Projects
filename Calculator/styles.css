@@ -1,0 +1,27 @@
+.container {
+  height: 90vh;
+  width: 40vw;
+  border: solid black;
+  margin: auto;
+  border-radius: 10px;
+}
+.input {
+  border: solid black;
+  margin: auto;
+  border-radius: 10px;
+  margin-left: 50%;
+  text-align: right;
+}
+.section_2 {
+  margin: auto;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-items: center;
+}
+.section_2 button {
+  position: relative;
+  padding: 20px;
+  max-width: 20px;
+  text-align: center;
+}
