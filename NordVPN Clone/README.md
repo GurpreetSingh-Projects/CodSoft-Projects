@@ -1,6 +1,6 @@
 # NordVPN Clone
 
-This repository contains the NordVPN Clone project, which was developed as Task 1 for the Web Development Internship at CodSoft. The goal of this project was to create a functional clone of the NordVPN website to showcase web development skills and knowledge.
+This repository contains the NordVPN Clone project, which was developed as Task 1 for the Web Development Internship at CodSoft. The goal of this project was to create a clone of the NordVPN website to showcase web development skills and knowledge.
 
 ## Table of Contents
 
