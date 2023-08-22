@@ -8,9 +8,9 @@ button {
   justify-content: space-between;
   align-items: center;
   position: relative;
-      height: 900px;
-    max-width: 412px;
-border: solid black;
+  height: 900px;
+  max-width: 412px;
+  border: solid black;
   margin: auto;
   border-radius: 10px;
   padding: 0;
@@ -57,4 +57,11 @@ border: solid black;
 }
 .section_2 button:active {
   background-color: rgba(141, 141, 141, 0.637);
+}
+.credits {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  font-size: 22px;
+  opacity: 50%;
 }
