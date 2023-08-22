@@ -1,42 +1,51 @@
+text,
+div,
+button {
+  font-family: Arial;
+}
 .container {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   position: relative;
-  height: 80vh;
-  width: 30%;
+  height: 100vh;
+  width: 100vw;
+  max-width: 360px;
   border: solid black;
   margin: auto;
   border-radius: 10px;
-  padding: 20px;
+  padding: 0;
+  border: 0;
 }
 .input {
-  
+  margin-top: 20%;
   border: solid black;
-  width: 97%;
+  width: 90%;
   border: 1;
   text-align: right;
 }
 .section_2 {
   display: grid;
   position: absolute;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 60%;
+
   left: 0;
   right: 0;
   bottom: 0;
-  
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  
+  margin: 0px;
+  padding-left: 3%;
+  padding-bottom: 2%;
+  font-family: Arial;
+  gap: 3%;
 }
 .section_2 button {
-  background-color: rgb(172, 172, 172);
-  margin: 10%;
-  padding: 15%;
-  padding: auto;
-  color: black;
-  
-  
-  border-style: solid;
+  background-color: rgb(233, 233, 233);
   border: 0;
+  border-radius: 9999px;
+  color: black;
   text-align: center;
-  font-size: 40px;
-}
-.section_2 text{
-  
+  font-size: 30px;
+  font-family: Arial;
+  padding: 0px;
 }
